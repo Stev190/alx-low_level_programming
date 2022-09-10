@@ -1,9 +1,9 @@
-#include <stdlib.h>
+include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 
 /**
- * main - assign a random number to the variable n each time it is executed
+ * main - assign a random number to the variable n
  * The string Last digit of n
  * Return: 0
  */
@@ -26,4 +26,7 @@ printf("Last digit of %d is %d and is 0\n", n, lastn);
 }
 else if (lastn < 6 && lastn != 0)
 {
-printf("Last dig
+printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lastn);
+}
+return (0);
+}
