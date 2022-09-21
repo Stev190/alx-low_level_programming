@@ -1,13 +1,22 @@
-#include "main.h"
-
+#include "holberton.h"
 /**
- * add - Adds two integers.
- * @num1: The first integer to be added.
- * @num2: The second integer to be added.
+ * print_alphabet_x10 - a function that prints 10 times the alphabet
  *
- * Return: The result of the addition.
+ * Return: x10 a-z
  */
-int add(int num1, int num2)
+void print_alphabet_x10(void)
 {
-	return (num1 + num2);
+	int n, co;
+
+	co = 0;
+
+	while (co < 10)
+	{
+		for (n = 'a'; n <= 'z'; n++)
+		{
+			_putchar(n);
+		}
+		co++;
+		_putchar('\n');
+	}
 }
